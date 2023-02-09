@@ -36,21 +36,32 @@ header {
 
 @media screen and (min-width: 992px) {
   header {
+    /* display: block; */
     background-color: blue;
   }
 }
 
 @media screen and (min-width: 992px) {
   body {
+    /* display: flex; */
     background-color: pink;
+    display: block;
   }
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
   section {
+    /* display: flex; */
+    
     background-color: yellow;
   }
+}
+@media  and (min-width:992px) {
+  section {
+    display: inline;
+  }
+  
 }
 
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
