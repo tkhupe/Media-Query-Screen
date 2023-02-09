@@ -28,12 +28,23 @@ header {
   width: 100%;
 }
 @media screen and (min-width: 992px) {
+  .card {
+    width: 100%;
+  }
   header {
     /* display: block; */
-    background-color: blue;
+    background: blue;
   }
 }
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%
+  }
+  header {
+    background: pink;
+  }  
+}
+/* @media screen and (min-width: 992px) {
   body {
     display: flex;
     background-color: pink;
@@ -44,33 +55,33 @@ header {
   body {
     /* display: flex; */
     
-    background-color: yellow;
+    /* background-color: yellow;
   }
 }
 @media screen and (min-width:992px) {
   section {
     
-    background-color: green;
+    background-color: green; */
     
-  }
+  /* }
 }
 @media screen and (min-width:992px) {
-  .card {
-    color: red;
+  /* .card { */
+    /* color: red; */
     /* display:flex */
     
     
-  }  
-}
-@media screen and (max-width: 992px) {
-  .card {
-    color: white;
+  /* }  
+} */
+/* @media screen and (max-width: 992px) { */
+  /* .card { */
+    /* color: white; */
     /* display:flex */
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     /* justify-content: space-around; */
-  }
-  
-}
+  /* } */
+   /* */ 
+/* } */ 
 
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
 
