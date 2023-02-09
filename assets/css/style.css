@@ -34,9 +34,25 @@ header {
   width: 100%;
 }
 
-@media (min-width: 992px) {
-.card display: inline;
+@media screen and (min-width: 992px) {
+  header {
+    background-color: blue;
+  }
 }
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: pink;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    background-color: yellow;
+  }
+}
+
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
 
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
