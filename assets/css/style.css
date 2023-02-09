@@ -11,6 +11,9 @@ header {
   background: #13293d;
   color: #fff;
 }
+.flex-container {
+  display: flex;
+}
 .card {
   border-style: solid;
   border-width: 1px;
@@ -35,21 +38,41 @@ header {
 }
 @media screen and (min-width: 992px) {
   body {
-    /* display: flex; */
+    display: flex;
     background-color: pink;
     display: block;
   }
 }
 @media screen and (max-width: 992px) {
-  flex-container {
+  body {
     /* display: flex; */
+    
     background-color: yellow;
   }
 }
 @media screen and (min-width:992px) {
   section {
-    /* display: inline; */
+    
+    background-color: green;
+    
   }
+}
+@media screen and (min-width:992px) {
+  .card {
+    color: red;
+    /* display:flex */
+    
+    
+  }  
+}
+@media screen and (max-width: 992px) {
+  .card {
+    color: white;
+    /* display:flex */
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+  }
+  
 }
 
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
