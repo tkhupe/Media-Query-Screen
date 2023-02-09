@@ -11,9 +11,6 @@ header {
   background: #13293d;
   color: #fff;
 }
-.flex-container {
-  display: flex;
-}
 .card {
   border-style: solid;
   border-width: 1px;
